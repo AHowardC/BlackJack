@@ -81,7 +81,7 @@ $(document).ready(function(){
 	$('.stand-button').click(()=>{
 		// Stand functionallity...
 		// console.log("User clicked the stand button")
-		// What happens to teh players hand on "Stand"?
+		// What happens to the players hand on "Stand"?
 		// - Nothing.
 		// Control passes over the dealer.
 		// Rules for the dealer:
@@ -181,3 +181,19 @@ $(document).ready(function(){
 
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// this is a template literal
+// `${nameOfVar}rest of the string goes out here`
