@@ -194,6 +194,3 @@ $(document).ready(function(){
 
 
 
-
-// this is a template literal
-// `${nameOfVar}rest of the string goes out here`
