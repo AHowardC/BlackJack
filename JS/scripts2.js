@@ -79,6 +79,22 @@ $(document).ready(()=>{
 		// in order to get this far, the dealer MUST have at least 17
 	});
 
+// Adding Functionallity to the betting buttons 
+// 	$('.bet1-button').click(()=>{
+// 		minus 1 from playerCashTotal
+// 		if player wins hand add var PlayersBetAmount * 2
+// 	});
+
+// 	$('.bet5-button').click(()=>{
+// 		minus 5 from playerCashTotal
+// 		if player wins hand add var PlayersBetAmount * 2
+// 	});
+
+// 	$('.bet10-button').click(()=>{
+// 		minus 10 from playerCashTotal
+// 		if player wins hand add var PlayersBetAmount * 2
+// 	});
+
 	// hand = the array with cards to total up
 	// who = which section of the DOM to change
 	function calculateTotal(hand,who){
@@ -133,6 +149,14 @@ $(document).ready(()=>{
 			}
 		}
 		return newDeck;
+	}
+
+	function checkWin(){
+		if (playersHand == 21) {
+			console.log('BlackJack You WIN!')
+		} else if(playersHand > dealersHand && playersHand < 21 || playersHand < 21 && dealersHand > 21){
+			console.log('Dealer BUSTS You WIN!')
+		}
 	}
 
 	function shuffleDeck(arrayToBeShuffled){
