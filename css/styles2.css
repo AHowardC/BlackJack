@@ -1,27 +1,22 @@
 body{
 	/*background-color: #D8182F;*/
-	background-color: #003E35;
+	background-color: #2f3131;
 }
-/*.bg{
-	background-image: url('jblogored.png');
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}*/
+
 .the-table{
 	background-color: #000;
-	border: 20px solid #4f5359;
+	/*border: 20px solid #4f5359;*/
+	border: 20px solid #CFCA76;
 	border-radius: 10px;
 	margin-top: 50px;
 	padding: 30px 0px;
+	
 }
 
 .card{
-	/* height: 120px; */
-	/* background-color: #fff; */
-	/* padding: 10px; */
-	border: 2px solid #757575;
+
+	border: 2px solid #000; 
+
 }
 
 .card img{
@@ -34,4 +29,13 @@ body{
 	font-size: 22px;
 	color: red;
 
+}
+
+.flip{
+	transform: rotateY(180deg);  /*This flips the cards*/
+
+}
+.card-holder{
+	transform-style: preserve-3d;
+	transition: all 1s;
 }

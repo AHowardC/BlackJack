@@ -46,6 +46,8 @@ $(document).ready(()=>{
 		calculateTotal(playersHand,'player');
 		// calculateTotal(dealersHand,'dealer');
 
+		$('.card-holder').toggleClass('flip')
+
 	});
 
 	$('.hit-button').click(()=>{
@@ -59,6 +61,7 @@ $(document).ready(()=>{
 		}else{
 
 		}
+		$('.card-holder').toggleClass('flip')
 	});
 
 	$('.stand-button').click(()=>{
