@@ -1,8 +1,8 @@
-/*body, html{
-	height: 100%;
-	margin: 0;
+body{
+	/*background-color: #D8182F;*/
+	background-color: #003E35;
 }
-.bg{
+/*.bg{
 	background-image: url('jblogored.png');
 	height: 100%;
 	background-position: center;
