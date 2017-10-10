@@ -1,6 +1,17 @@
+/*body, html{
+	height: 100%;
+	margin: 0;
+}
+.bg{
+	background-image: url('jblogored.png');
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
 .the-table{
 	background-color: #000;
-	border: 20px solid #307685;
+	border: 20px solid #4f5359;
 	border-radius: 10px;
 	margin-top: 50px;
 	padding: 30px 0px;
@@ -20,4 +31,7 @@
 
 .dealer-hand-wrapper, .player-hand-wrapper{
 	margin-bottom: 20px;
+	font-size: 22px;
+	color: red;
+
 }
