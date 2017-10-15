@@ -1,5 +1,8 @@
 body{
-	background-color: #000;
+	/*background-color: #000;*/
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjERF12cPuudTnbTYKBKxua6BbhUP9dGgpZ4I2gWoRdtZHiy30yg');
+	-webkit-background-size: cover;
+	background-size: cover;
 
 }
 
