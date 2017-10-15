@@ -1,8 +1,9 @@
 body{
 	/*background-color: #000;*/
-	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjERF12cPuudTnbTYKBKxua6BbhUP9dGgpZ4I2gWoRdtZHiy30yg');
+	background-image: url('https://wallpapercave.com/wp/LL0ssZR.jpg');
 	-webkit-background-size: cover;
 	background-size: cover;
+	background-repeat: no-repeat;
 
 }
 
@@ -14,8 +15,8 @@ body{
 	border-radius: 10px;
 	margin-top: 50px;
 	padding: 30px 0px;
-	transform: perspective(800px) rotateX(10deg);
-    right: 50px;
+	transform: perspective(800px) rotateX(0deg);
+    right: 130px;
 }
 
 .card{
