@@ -1,20 +1,22 @@
 body{
-	background: url('https://www.flickeringmyth.com//wp-content/uploads/2014/05/casino_royale2-600x398.jpg');
+	background-color: #000;
+
 }
 
 .the-table{
-	background-color: #000;
-	/*border: 20px solid #4f5359;*/
-	border: 20px solid #CFCA76;
+	background: url('http://cdn.history.com/sites/2/2017/08/GettyImages-55920525-E.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 20px solid #747B85;  /*CFCA76*/
 	border-radius: 10px;
 	margin-top: 50px;
 	padding: 30px 0px;
-	
 }
 
 .card{
 
-	border: 2px solid #000; 
+	/*border: 2px solid #000;*/
+
 
 }
 
